@@ -1,9 +1,5 @@
-import React from 'react'
+import Accordion from '../Accordion/Accordion';
 
-const Question = () => {
-  return (
-    <div>Question</div>
-  )
-}
+const Question = () => <Accordion />;
 
-export default Question
+export default Question;
